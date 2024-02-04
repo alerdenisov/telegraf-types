@@ -148,4 +148,6 @@ export type Update =
   | Update.PollAnswerUpdate
   | Update.PollUpdate
   | Update.ShippingQueryUpdate
-  | Update.ChatJoinRequestUpdate;
+  | Update.ChatJoinRequestUpdate
+  | Update.MessageReactionUpdatedUpdate
+  | Update.MessageReactionCountUpdatedUpdate;
