@@ -150,4 +150,6 @@ export type Update =
   | Update.ShippingQueryUpdate
   | Update.ChatJoinRequestUpdate
   | Update.MessageReactionUpdatedUpdate
-  | Update.MessageReactionCountUpdatedUpdate;
+  | Update.MessageReactionCountUpdatedUpdate
+  | Update.ChatBoostUpdatedUpdate
+  | Update.ChatBoostRemovedUpdate;
